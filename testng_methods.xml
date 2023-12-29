@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Annotations">
+    <test name="Run class Annotations">
+        <classes>
+            <class name="demoTestNG.ConfigurationAnnotations_1_DatePickers">
+<methods>
+    <include name="addtocart2"/>
+    <exclude name="addtocart1"/>
+</methods>
+            </class>
+            <class name="demoTestNG.ConfigurationAnnotations_2_ListBox">
+
+            </class>
+        </classes>
+    </test>
+</suite>
